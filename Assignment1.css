@@ -1,0 +1,57 @@
+html
+{
+  background-color: black;
+}
+
+a, a:hover, a:active, a:visited
+{
+  color: white;
+  text-decoration: none;
+}
+
+table
+{
+  border-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th,td
+{
+  border: solid 1pt white;
+  padding: 10px;
+}
+
+.header
+{
+  text-align: center;
+}
+
+.menu
+{
+  display: inline-block;
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  color: white;
+}
+
+.content
+{
+  color: white;
+}
+
+.footer
+{
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+}
+
+#acceptance
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
