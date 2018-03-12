@@ -18,7 +18,7 @@
     <hr>
   </div>
   <div class = "content">
-    <form name="myForm" action="Assignment1_Accepted.php" onsubmit="return validateForm()" method="post">
+    <form name="myForm" action="Assignment1_Insert.php" onsubmit="return validateForm()" method="post">
       <table border="3">
         <tr>
           <th colspan="2">Book Room</th>
@@ -46,21 +46,21 @@
         <tr>
           <td>Room Type</td>
           <td>
-            <select>
+            <select name="RoomType">
               <option disabled selected value>Select One</option>
               <option value="DRoom">Deluxe Room - $274</option>
               <option value="DPool">Deluxe Pool Villa - $438</option>
-              <option value="1Bed">Deluxe Room - $525</option>
-              <option value="2Bed">Deluxe Room - $635</option>
+              <option value="1Bedroom Pool Villa">1 Bedroom Pool Villa - $525</option>
+              <option value="2Bedroom Pool Villa">2 Bedroom Pool Villa - $635</option>
             </select>
           </td>
         </tr>
         <tr>
           <td>Additional Charges</td>
           <td>
-            <input type="checkbox" value="EBed">Extra Bed - $80<br>
-            <input type="checkbox" value="AShuttle">Airport Shuttle - $40<br>
-            <input type="checkbox" value="UbudTour">Ubud Tour 1D - $100<br>
+            <input type="checkbox" name="EBed" value="1">Extra Bed - $80<br>
+            <input type="checkbox" name="AShuttle" value="1">Airport Shuttle - $40<br>
+            <input type="checkbox" name="UbudTour" value="1">Ubud Tour 1D - $100<br>
           </td>
         </tr>
         <tr>
